@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS to change the cursor to a pointer when hovering over a box */
+.boxes {
+  width: 100px; /* Adjust this size as per your design */
+  height: 100px; /* Adjust this size as per your design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+  cursor: pointer; /* This will make the cursor a pointer when hovering over the box */
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
