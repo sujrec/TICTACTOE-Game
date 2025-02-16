@@ -76,11 +76,15 @@ const TicTacToe = () => {
     setLock(false);
     data = ["", "", "", "", "", "", "", "", ""];
     titleRef.current.innerHTML = 'Tic Tac Toe In <span>React</span>';
-    box_array.map((e) => {
+    
+    // Use forEach instead of map
+    box_array.forEach((e) => {
       e.current.innerHTML = "";
     });
+  
     setCount(0);  // Reset the count
   };
+  
 
   return (
     <div className='container'>
